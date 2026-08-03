@@ -1,0 +1,238 @@
+:root{
+     --background-navbar:#9D00FF;
+     --background-footer:#9D00FF;
+     --color-footer:rgb(255, 248, 248);
+     --color-title1:#000000;
+     --color-problem1:#000000;
+    
+}
+
+body{
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1,h2,h3,h4,p{
+    font-family: 'Orbitron', sans-serif;
+    color: #9D00FF;
+    letter-spacing: 2px;
+}
+p{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    letter-spacing: 2px; 
+}
+.navbar{
+    background-color: var(--background-navbar) !important;
+    text-align: right;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    color:white;
+    font-weight: bold;
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-footer);
+   
+    padding: 6px 20px;
+} 
+h1{
+    text-align: center;
+    margin-top:20px;
+}
+h2{
+
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+
+.background-modal-header {
+  background-color: var(--background-footer);
+  color: var(--color-texto);
+}
+
+.btn-close {
+  color: var(--background-btn-explorar);
+  background-color: var(--background-btn-explorar);
+}
+.problem1{
+    color:var(--color-problem1);
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.parrrafo1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    padding: 20px;
+    text-align: justify;
+}
+.img-logo{
+    width: 40px;
+    height: 40px;
+}
+
+ iframe {
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+
+          /* Efecto de transición en las cartas */
+  .credit-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius: 15px;
+  }
+
+  .credit-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+  }
+  .card-text{
+    color:#9D00FF
+  }
+
+
+  .btn-custom{
+      background:#3b4958;
+      color:white;
+      border-radius:30px;
+      padding:10px 20px;
+    }
+
+     .btn-custom:hover{
+      background:#4d6075;
+      color:white;
+    }
+
+
+    .carousel-img{
+    height: 80vh;
+    object-fit: cover;
+}
+
+.carousel-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(
+        135deg,
+        rgba(0,0,0,.75),
+        rgba(157,0,255,.4)
+    );
+}
+
+.custom-caption{
+    bottom:50%;
+    transform:translateY(50%);
+    text-align:center;
+}
+
+.custom-caption h1{
+    font-size:4rem;
+    font-weight:700;
+    font-family:'Orbitron', sans-serif;
+    color:white;
+    text-shadow:0 0 20px rgba(157,0,255,.8);
+    animation:slideDown 1s ease;
+}
+
+.custom-caption p{
+    font-size:1.3rem;
+    margin:20px 0;
+    animation:fadeIn 1.5s ease;
+}
+
+.custom-caption .btn{
+    background:#9D00FF;
+    border:none;
+    border-radius:50px;
+    padding:12px 30px;
+    transition:.4s;
+}
+
+.custom-caption .btn:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 20px #9D00FF;
+}
+
+.carousel-indicators button{
+    width:12px;
+    height:12px;
+    border-radius:50%;
+}
+
+@keyframes slideDown{
+    from{
+        opacity:0;
+        transform:translateY(-50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .carousel-img{
+        height:60vh;
+    }
+
+    .custom-caption h1{
+        font-size:2rem;
+    }
+
+    .custom-caption p{
+        font-size:1rem;
+    }
+}
+
+
+.login-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #9D00FF, #0097a7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+.login-box {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.btn-temas{
+    background-color: #9D00FF;
+    color: white;
+     font-family: 'Orbitron', sans-serif;
+     border: none;
+     padding:10px;
+}
