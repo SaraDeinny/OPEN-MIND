@@ -8,16 +8,16 @@
 }
 
 body{
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1,h2,h3,h4,p{
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #9D00FF;
     letter-spacing: 2px;
 }
 p{
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: white;
     letter-spacing: 2px; 
 }
